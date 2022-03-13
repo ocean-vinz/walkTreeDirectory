@@ -8,8 +8,6 @@ def checkfiles():
         minNumberFiles="0"
     currentdir=os.getcwd()
     if minNumberFiles.isnumeric():
-        print('Checking the amount of files in ' + str(currentdir))
-        print()
         currentcount=0
         for foldername, subfolder, filename in os.walk(currentdir):
             numberoffiles=len(filename)
@@ -25,6 +23,5 @@ def checkfiles():
     else:
         print("Please only input an integer/numeric!")
 
-
-checkfiles()
-
+if __name__ == "__main__":
+    checkfiles()

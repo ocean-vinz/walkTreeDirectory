@@ -1,4 +1,4 @@
-# walkTreeDirectory
+# Walk Tree Directory
 
 Python script that will list the number of files in a given directory recursively
 
